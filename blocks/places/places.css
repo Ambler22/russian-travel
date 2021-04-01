@@ -1,0 +1,25 @@
+.places {
+    max-width: 984px;
+    padding-bottom: 92px;
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1152px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 896px) {
+    .places {
+        max-width: 720px;
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 767px) {
+    .places {
+        padding-bottom: 66px;
+    }
+}

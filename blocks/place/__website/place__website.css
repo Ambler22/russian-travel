@@ -1,0 +1,13 @@
+.place__website {
+    align-self: end;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media (max-width: 767px) {
+    .place__website {
+        width: 288px;
+        margin: 0 auto;
+    }
+}
