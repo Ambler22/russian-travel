@@ -1,4 +1,4 @@
-.header__links {
+.header__lang-link {
     padding-top: 18px;
     padding-bottom: 6px;
     font-weight: normal;
@@ -6,10 +6,11 @@
     line-height: 28px;
     text-align: right;
     color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 767px) { 
-    .header__links {
+    .header__lang-link {
         padding-top: 14px;
         padding-bottom: 8px;
         font-size: 18px;
