@@ -1,4 +1,4 @@
-.photo__grid {
+.photo-grid {
     font-family: 'Inter', Arial, sans-serif;
     max-width: 1184px;
     padding: 92px 0;
@@ -9,14 +9,14 @@
 }
 
 @media (max-width: 1152px) {
-    .photo__grid {
+    .photo-grid {
         max-width: 928px;
         gap: 14px;
     }
 }
 
 @media (max-width: 896px) {
-    .photo__grid {
+    .photo-grid {
         padding: 88px 0;
         max-width: 720px;
         gap: 16px;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 767px) {
-    .photo__grid {
+    .photo-grid {
         max-width: 288px;
         gap: 12px;
         padding: 64px 0;
