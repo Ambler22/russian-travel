@@ -7,6 +7,7 @@
     padding: 0;
     margin-bottom: 12px;
     color: #AAAAAA;
+    text-transform: uppercase
 }
 
 @media (max-width: 896px) {
@@ -17,8 +18,6 @@
 
 @media (max-width: 767px) {
     .place__url-heading {
-        max-width: 288px;
-        font-size: 12px;
-        line-height: 12px;
+        max-width: 288px;        
     }
 }
